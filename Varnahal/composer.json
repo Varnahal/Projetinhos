@@ -1,0 +1,18 @@
+{
+    "description": "Varnahal Projeto MVC",
+    "authors": [
+        {
+            "name": "Varnahal Daniel",
+            "email": "danielmarcelino@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app",
+            "Core\\":"core"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
