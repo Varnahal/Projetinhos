@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imagens/1151373.png);
+    background-position: 50% 20%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width:400px) {
+    input[type='submit']{
+        width: 300px;
+        height: 55px;
+        background-color: rgb(255, 41, 130);
+        border: none;
+        cursor: pointer;
+    }
+    input{
+        display: block;
+        height: 33px;
+        width: 258px;
+        margin: 10px;
+        border-radius: 30px;
+        border: solid 1px rgb(255, 255, 255);
+        font-size: 16pt;
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        transition: 1s;
+    }
+    div#corpoform{
+        width: 320px;
+        margin:150px auto 0px auto;
+    }
+}
+@media (min-width:400px) {
+    input[type='submit']{
+        width: 400px;
+        height: 55px;
+        background-color: rgb(255, 41, 130);
+        border: none;
+        cursor: pointer;
+    }  
+    input{
+        display: block;
+        height: 33px;
+        width: 358px;
+        margin: 10px;
+        border-radius: 30px;
+        border: solid 1px rgb(255, 255, 255);
+        font-size: 16pt;
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        transition: 1s;
+    }
+    div#corpoform{
+        width: 420px;
+        margin:150px auto 0px auto;
+    }
+    div#msg-sucesso{
+        width: 400px;
+        margin: 10px auto;
+        padding: 10px;
+        background-color: rgba(8, 155, 21, 0.602);
+    }
+    div.msg-erro{
+        width: 400px;
+        margin: 10px auto;
+        padding: 10px;
+        background-color: rgba(255, 25, 0, 0.602);
+    }
+}
+
+input[type='submit']:hover{
+    background-color: rgb(255, 100, 165);
+}
+
+input:hover{
+    background-color: rgba(255, 255, 255, 0.342);
+}
+::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.698);
+    font-weight: bolder;
+}
+
+
+#corpoform h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+a:hover{
+    text-decoration: underline;
+}
