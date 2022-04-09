@@ -1,0 +1,38 @@
+div.p{
+    display: block;
+    background-color: rgb(44, 44, 44);
+    margin-left:-10px ;
+    margin-right: -10px;
+    margin-top: 90px;
+    margin-bottom: -25px;
+    position: relative;
+    text-align: center;
+    
+}
+ul#pepo{
+padding: auto;
+}
+ ul#pepo li#papa{
+    display:inline-block;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+}
+li#papa:hover{
+box-shadow: 5px 5px 5px 5px black;
+}
+li#papa{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(105, 105, 105);
+    border-radius: 30px;
+    left: -20px;
+}
+li#papa img{
+    position: relative;
+    top: 15px;
+    border-radius: 30px;
+    height: 370px;
+    width: 370px;
+}

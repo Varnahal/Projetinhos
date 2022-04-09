@@ -1,0 +1,56 @@
+div#contatos{
+display: block;
+background-color: rgb(0, 0, 0);
+}
+ul#cntts{
+    display: block;
+    position: relative;
+    list-style: none;
+    text-align: center;
+background: rgb(58, 58, 58);
+margin: -10px;
+margin-bottom: -30px;
+height: 100vh;
+}
+li#augusto{
+    position: relative;
+    display: inline-block;
+    top: 25%;
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    z-index: 0;
+}
+ul#cntts h1{
+position: absolute;
+padding: 10px;
+z-index: 100;
+color: rgb(216, 216, 216);
+}
+h1#face{
+    top: 180px;
+    left: 135px;
+}
+h1#whats{
+    top: 180px;
+    left: 735px;
+}
+h1#insta{
+    top: 180px;
+    left: 435px;
+}
+h1#gmail{
+    top: 180px;
+    left: 1075px;
+}
+li#augusto img{
+    position: relative;
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+}
+h1#chaba{
+    position: absolute;
+    top: 500px;
+    left: 530px;
+}
