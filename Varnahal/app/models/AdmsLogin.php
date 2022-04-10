@@ -17,7 +17,7 @@ class AdmsLogin extends Conn{
     public function login(array $dados = null){
         $this->dados = $dados;
         $this->conn=$this->connect();
-        $query_val_login = "SELECT id,nome,email,senha,sitis_usuario FROM varnahal.usuarios WHERE email = :email AND sitis_usuario = 1 LIMIT 1";
+        $query_val_login = "SELECT id,nome,email,senha,sitis_usuario_id FROM varnahal.usuarios WHERE email = :email AND sitis_usuario_id = 1 LIMIT 1";
         $result_val_login = $this->conn->prepare($query_val_login);
         $result_val_login->bindParam(":email",$this->dados['usuario'],PDO::PARAM_STR);
         $result_val_login->execute();
@@ -41,7 +41,7 @@ class AdmsLogin extends Conn{
     }
     private function validar_sit()
     {
-       if($this->resultadobd['id'] <> 1)
+       if($this->resultadobd['sitis_usuario_id'] <> 1)
         {
             $_SESSION['msg'] = "confirme seu email para ativar a conta" ;
             return false;
